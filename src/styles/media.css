@@ -1,0 +1,9 @@
+@media (min-width: 767px){
+    .tags__container {
+        justify-content: flex-start;
+    }
+    
+    .cards__container{
+        justify-content: space-between;
+    }
+}

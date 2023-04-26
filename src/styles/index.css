@@ -1,0 +1,247 @@
+header {
+    width: 100%;
+    height: 20vh;
+   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header > h1 {
+    font-size: var(--font-1);
+    color: var(--color-grey-1);
+}
+
+header > span {
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: var(--radius-1);
+   
+    background-color: var(--color-grey-7);
+}
+
+header > span:hover {
+    cursor: pointer;
+}
+
+.section-filter-by-tags__container {
+    width: 100%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 41.6px;
+
+}
+
+.sections__subtitle {
+    font-size: var(--font-2);
+    color: var(--color-grey-2); 
+}
+
+.tags__container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 35px;
+
+    margin-bottom: 50px;
+}
+
+.tags__tag {
+    width: auto;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--font-3);
+    color: var(--color-grey-2);
+    padding: 0 .625rem;
+
+    border-radius: var(--radius-1);
+
+    background-color: var(--color-grey-7);
+}
+
+
+.tags__tag:hover {
+    cursor: pointer;
+
+    background-color: var(--color-grey-1);
+
+    color: var(--color-grey-8);
+
+    transition: 0.5s;
+}
+
+.selected {
+    background-color: var(--color-grey-1);
+
+    color: var(--color-grey-8);
+}
+
+.section-filter-by-price__container {
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section-filter-by-price__container > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-filter-by-price__price-range {
+    color: var(--color-grey-2);
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--color-brand-1) 50%, var(--color-grey-3) 50%);
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--color-brand-1);
+    cursor: ew-resize;
+}
+
+.slider::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: var(--color-brand-1);
+    cursor: ew-resize;
+}
+ 
+.cards-section__container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+
+.cards__container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.cards__card {
+    width: 20.50rem;
+    height: 17.25rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .55rem;
+
+    margin-bottom: 2.5rem;
+
+    border-radius: var(--radius-1);
+
+    background-color: var(--color-grey-7);
+}
+
+.cards__card:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.cards__description {
+    width: 100%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+
+    padding: 15px;
+
+}
+
+.cards__description > h2 {
+    color: var(--color-grey-1);
+}
+
+.cards__description > span{
+    color: var(--color-grey-2);
+    display:flex;
+    gap: 8px;
+}
+
+.cards_img {
+    width: 100%;
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
+}
+
+.cards__price {
+    width: 100%;
+    height: 3vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards__price > p {
+    font-weight: 500;
+    color: var(--color-grey-1);
+}
+
+.cards__price > button {
+    width: 75px;
+    height: 32px;
+
+    border: transparent;
+    border-radius: var(--radius-1);
+
+    background-color: var(--color-grey-8);
+
+    color: var(--color-grey-3);
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards__price > button:hover {
+    background-color: var(--color-white-fixed);
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}

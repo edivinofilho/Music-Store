@@ -4,7 +4,7 @@ Online Disc Store with multiple features that gives users a better experience wh
 ## Description
 This project is an online store simulation page created using Vanilla JavaScript, HTML, and CSS. It displays various discs available for purchase, and users can filter the displayed items by category and price range.
 
-A key feature of this project is the option for users to switch between dark and light modes, providing them with a personalized visual experience.
+A key feature of this project is the option for users to switch between dark and light modes, providing them with a personalized visual experience. It also saves the user's preferences using LocalStorage, so the next time the user accesses the page it would remember which mode was selected previously. 
 
 ## Features
 - Display of discs available for sale
